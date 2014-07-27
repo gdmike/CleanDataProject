@@ -11,7 +11,8 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing corresponding measures.
 
-The original data set was filtered to only use the mean and standard deviations available.  These were the collapsed to get the mean and standard deviation for each of 30 subjects doing each of the 6 activities described in the data.  This is represented in the final tidy data set.
+###Filtering the Data
+The original data set was filtered to only use the mean and standard deviations available.  These were then collapsed to get the mean and standard deviation for each of 30 subjects doing each of the 6 activities described in the data.  This is represented in the final tidy data set.
 
 
 Here is a list of the new variable labels.  The following explains what each term represents.  Using this as a guide will indicate what each variable label represents.
