@@ -1,9 +1,29 @@
 ---
-title: "Codebok"
-output: html_document
+title: "Codebook for Clean Data Project"
+
 ---
-Subject
-Activity
+
+The full original data was collected as follows:
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals. Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm. 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing corresponding measures.
+
+The original data set was filtered to only use the mean and standard deviations available.  These were the collapsed to get the mean and standard deviation for each of 30 subjects doing each of the 6 activities described in the data.  This is represented in the final tidy data set.
+
+
+Here is a list of the new variable labels.  The following explains what each term represents.  Using this as a guide will indicate what each variable label represents.
+- Mean and Sdev indicate mean and standard deviation respectively
+- the X, Y, Z represent the corresponding axis
+- Body or Gravity represent the corresponding acceleration signal
+- The "F-" indicates a variable derived from the FFT as described above.
+- Jerk indicates Jerk signal as described above
+- Mag indicates a magnitude using Euclidean norm.
+
+
+These are the time domain signals Body and Gravity information, with mean and standard deviation for X,Y, and Z axis
 Mean Body Accel - X
 Mean Body Accel - Y
 Mean Body Accel - Z
