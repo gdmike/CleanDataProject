@@ -1,7 +1,6 @@
----
-title: "Codebook for Clean Data Project"
 
----
+##Codebook for Clean Data Project"
+
 
 The full original data was collected as follows:
 
