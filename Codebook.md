@@ -25,16 +25,21 @@ Here is a list of the new variable labels.  The following explains what each ter
 
 
 These are the time domain signals Body and Gravity information, with mean and standard deviation for X,Y, and Z axis
-Mean Body Accel - X
-Mean Body Accel - Y
-Mean Body Accel - Z
+    Mean Body Accel - X
+    Mean Body Accel - Y
+
+    Mean Body Accel - Z
 
 Sdev Body Accel - X
+
 Sdev Body Accel - Y
+
 Sdev Body Accel - Z
 
 Mean Gravity Accel - X
+
 Mean Gravity Accel - Y
+
 Mean Gravity Accel - Z
 
 Sdev Gravity Accel - X
